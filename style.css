@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow', 'Barlow-Condensed', sans-serif;
+}
+
+html {
+  font-size: 62.6%;
+}
+
+body {
+  font-size: 18px;
+  /* max-width: 1440px; */
+  overflow: hidden;
+}
+
+img {
+  
+}
+
+header {
+  margin: 4rem 10%;
+  margin-bottom: 7rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+header nav ul li a {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: hsl(230, 29%, 20%);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header .login {
+  color: hsl(231, 7%, 65%);
+}
+
+main {
+  display: flex;
+  margin: 4rem 10%;
+  position: relative;
+}
+
+main .right-main .image {
+  position: absolute;
+  left: 50%;
+  /* right: 0; */
+  /* overflow: hidden; */
+}
+
+main img {
+  /* position: absolute; */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* left: 50%; */
+  /* overflow-x: hidden; */
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) { 
+  main {
+    flex-direction: column-reverse;
+  }
+}
+
+
